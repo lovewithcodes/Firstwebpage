@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-image: url('your-background-image.jpg'); */
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #ffffffac;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: 'Garamond',  fantasy;
+}
+
+
+.historic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  /* background-color: #FF9933; */
+  /* max-width: 500px; */
+  margin: -55px auto 0;
+  border-radius: 30px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.375); */
+}
+
+.history-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  max-width: 5500px;
+  margin: 80px auto 0;
+  border-radius: 25px;
+  margin-bottom: -2px;
+  box-shadow: 0 0 10px rgb(0, 0, 0)
+
+}
+
+.history-image {
+  margin-bottom: 5px;
+}
+
+.history-image img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.history-text {
+  text-align: center;
+}
+
+.history-text h2 {
+  font-size: 30px;
+}
+
+.history-text p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .history-section {
+    max-width: 800px;
+  }
+}
+
+#know-more-btn {
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #FF671F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#know-more-btn:hover {
+  background-color: #D65108;
+}
+
+#know-more-btn:focus {
+  outline: none;
+}
+
+#know-more-btn.know-less {
+  background-color: #FF671F;
+}
+
+
+/* box2 */
+
+.famous-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  /* background-color: #FF9933; */
+  /* max-width: 500px; */
+  margin: 50px auto 0;
+  border-radius: 30px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.375); */
+}
+
+.box2 {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.box2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box2 p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+  .box2 {
+    width: 90%;
+  }
+}
+
+
+
+.img2 {
+  margin-bottom: 5px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a.google-location-btn {
+  display: inline-block;
+  padding: 8px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: center;
+  background-color: rgb(70, 70, 211);
+  color: whitesmoke;
+  text-decoration: center;
+  border-radius: 50px;
+  transition: background-color 0.5s, color 0.3s, transform 0.5s;
+}
+
+a.google-location-btn:hover {
+  background-color: rgb(91, 91, 194);
+  transform: scale(1.1);
+}
+
+.box2 ul,
+.box3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.box2 ul li,
+.box3 ul li {
+  margin-bottom: 10px;
+}
+
+/* box3 */
+
+.influ-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* background-color: #046A38; */
+  /* max-width: ; */
+  margin: 10px auto 0;
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.375); */
+}
+
+.box3 {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.box3 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box3 p {
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+
+  .box3 {
+    width: 90%;
+  }
+}
+
+.influ-section {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the box3 */
+.box3 {
+  /* background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; */
+}
+
+/* Style for influencer info */
+.influencer-info {
+  margin-bottom: 15px;
+}
+
+.instagram-name {
+  font-family: 'Instagram', cursive;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.instapage-link, .instagram-link {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.influencer-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.img3 {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
